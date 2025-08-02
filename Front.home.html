@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script src="Javas.js" defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice Front End</title>
@@ -11,12 +17,15 @@
       <div class="nav-container">
         <div class="logo">JAY MARK</div>
         <nav class="nav-links">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
-        </nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
       </div>
+    
     </header>
     <section class="intro-section">
       <div class="intro-container">
@@ -25,18 +34,52 @@
           <p>
             Fresh Graduate at Tarlac State University.<br />
             A passionate Bachelor of Science in Information Technology based in
-            Tarlac, Philippines. 📍
+            Tarlac, Philippines. 📍<br> Aspiring Web Developer
           </p>
+
+          <div class="btn-dl">
+            <a href="" class="btn">Download Cv</a>
+          </div>
+
+          
           <div class="social-icons">
             <a href="https://github.com/Titusss19"><img src="Pics/linkedin.png" alt="LinkedIn" /></a>
             <a href="https://www.linkedin.com/in/jay-mark-melivo-2b3292362/"><img src="Pics/social.png" alt="GitHub" /></a>
           </div>
-        </div>
+        
+        
+        <div class="dev-tool">
+          <img src="Pics/html.png" alt="HTML"></a>
+          <img src="Pics/css-3.png" alt="CSS"></a>
+          <img src="Pics/js.png" alt="JS"></a>
 
+        </div>
+        </div>
+       
         <div class="intro-image">
           <img src="Pics/Jm.jpg" alt="Jay Mark B. Melivo" />
         </div>
       </div>
     </section>
+    
+      <!-- Slider -->
+        <div class="swiper myswiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="Pics/g1.png" alt="Slide 1"></div>
+            <div class="swiper-slide"><img src="Pics/g2.jpg" alt="Slide 2"></div>
+            <div class="swiper-slide"><img src="Pics/g3.jpg" alt="Slide 3"></div>
+            <div class="swiper-slide"><img src="Pics/g3.jpg" alt="Slide 4"></div>
+            <div class="swiper-slide"><img src="Pics/g5.jpg" alt="Slide 4"></div>
+          </div>
+
+        
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+
+          
+          <div class="swiper-pagination"></div>
+        </div>
+
+        </section>
   </body>
 </html>
