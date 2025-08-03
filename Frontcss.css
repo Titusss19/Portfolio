@@ -216,18 +216,16 @@
 /* Sections 2 */
 
 .myswiper{
-  width: 50%;
+  width: 100%;
   max-width: 600px;
   height: 400px;
-  margin: 0 auto;
+  margin: 5 auto;
   border-radius: 10px;
   overflow: hidden;
   float: left;
-  margin-left: 50px;
+  margin-left: 80px;
   margin-top: 30px;
   margin-bottom: 150px;
-  
-  
 }
 
 .swiper-slide img {
@@ -235,8 +233,29 @@
   height: 90%;
   object-fit: cover;
   display: block;
+  
 }
 
 .swiper-button-next, .swiper-button-prev{
   color: #ffffff;
 }
+
+.project-section{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  color: #030303;
+}
+
+.Exp1 {
+  padding: 20px;
+}
+
+
+.swiper {
+  max-width: 600px;
+  flex: 1;
+}
+
+
+
